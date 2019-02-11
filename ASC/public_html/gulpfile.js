@@ -5,6 +5,8 @@ var gulp = require('gulp'),
         loadPlugins = require('gulp-load-plugins'),
         plugins = loadPlugins(),
             uglify = require('gulp-uglify'),
+            concat = require('gulp-concat'),
+            babel = require('gulp-babel'),
          bs= require("browser-sync").create(),
         pump = require("pump");
 
@@ -16,7 +18,7 @@ var gulp = require('gulp'),
    var paths = {
 	srcHTML: '../templates/*.html',
         srcCSS: 'src/**/styles.scss',
-        srcJS: 'src/**/**/*.js',
+        srcJS: 'src/**/*.js',
         srcImg: 'src/**/*.+(png|jpg|gif)',
 
         dist: 'dist/',
@@ -64,8 +66,8 @@ gulp.task('scripts', function (cb) {
 
         pump([
     gulp.src(paths.srcJS),
-          // concat('bundle.min.js'),
-     plugins.babel({
+          concat('/scripts/bundle.min.js'),
+     babel({
               presets:['env']
          }),
     uglify(),
