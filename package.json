@@ -1,0 +1,9 @@
+{
+  "name": "AdonayShippingCoLtd",
+  "version": "1.0.0",
+  "description": "Site d'entreprise",
+  "main": "index.js",
+  "repository": "https://github.com/SmartKingCode/AdonayShippingCoLtd.git",
+  "author": "SmartKing <Smartking@SmartKing>",
+  "license": "MIT"
+}
