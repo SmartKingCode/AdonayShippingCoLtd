@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/SmartKingCode/AdonayShippingCoLtd.git",
   "author": "SmartKing <Smartking@SmartKing>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  }
 }
