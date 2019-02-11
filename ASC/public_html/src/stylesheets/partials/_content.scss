@@ -1,0 +1,485 @@
+
+/*
+Step start
+*/
+div#container{
+     height: 800px;
+}
+div#version{
+     position: relative;
+    top:-65px;
+}
+div#container #index{
+    position: relative;
+    top:220px;
+    height:380px;
+}
+div#container #index #logo_img{
+    height:220px;
+}
+
+div#container #index #logo_img #index_links{
+     height:60px;
+}
+
+div#container #login_block{
+    width: 150px;
+    position: relative;
+    left: 40px;
+}
+div#container #registration .img_icon{
+    height: 30px;
+    width: 30px;
+}
+
+
+section#content
+{
+    display: block;
+   
+   
+    
+    height: 650px;
+}
+section#content div#align_raw
+{
+    display: block;
+   
+   
+    
+    height: 650px;
+}
+section#content div#align_raw div#view_project
+{
+    display: block;
+   width: 197px;
+ 
+   height: 640px;
+    border: 1px #3D474C solid;
+  
+    
+}
+section#content div#align_raw div#middle_box{
+    display: block;
+    height: 640px;
+   
+    padding: 0;
+    position: relative;
+    left: 25%;
+    top:-98.40%;
+}
+section#content div#align_raw div#middle_box div#developpeur {
+    display: block;
+    height: 355px;
+  
+    padding: 0;
+   
+}
+section#content div#align_raw div#middle_box div#developpeur div#monolithic {
+    display: block;
+    height: 350px;
+    
+    padding: 0;
+}
+section#content div#align_raw  div#devtool
+{
+    display: block;
+   
+ 
+  padding: 0;
+    border: 1px #3D474C solid;
+  height: 640px;
+     position: relative;
+    right: -75%;
+    top:-197%;
+}
+section#content div#align_raw  div#devtool div.tab-content {
+    
+    height: 270px;
+      
+}
+
+section#content div#align_raw  div#devtool div.tab-content  div#process{
+     height: 265px;
+      
+     
+}
+section#content div#align_raw  div#devtool div.tab-content  div#process ul#range{
+    overflow-y: scroll;
+    height: 261px;
+      
+}
+section#content div#align_raw  div#devtool div.tab-content div#beautify {
+    
+    height: 265px;
+}
+section#content div#align_raw  div#devtool div.tab-content div#beautify div#accordion{
+   
+    overflow: hidden;
+     overflow-y: scroll;
+    height: 261px;
+   
+}
+
+section#content div#align_raw div#view_project div#project_tree{
+      display:  block;
+    
+      overflow-y:   scroll;
+    height: 240px;
+   
+}
+section#content div#align_raw div#view_project div#profile_box{
+    display:  block;
+   
+     
+    height: 221px;
+   
+   
+    
+}
+section#content div#align_raw div#middle_box div#developpeur form{
+  overflow-y: scroll;
+  display: block;
+  margin: 0;
+  padding: 0;
+      height: 295px;
+}
+
+section#content div#align_raw div#middle_box div#input_output {
+   
+    height: 210px;
+  
+ 
+}
+section#content div#align_raw div#middle_box div#input_output div.tab-content{
+   
+    height: 210px;
+   
+     max-height: 490px;
+   min-width: 100px;
+ 
+}
+section#content div#align_raw div#middle_box div#input_output div#input{
+   
+    height: 205px;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+
+/*
+Step End
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+section#content
+{
+    display: block;
+   
+    background-color:#3D474C;
+    
+    height: 671px;
+}
+section#content div#view_project
+{
+    display: block;
+   width: 197px;
+ background-color: #343a40;
+   height: 660px;
+    border: 1px #3D474C solid;
+  
+    
+}
+section#content div#view_project div.contain{
+    display: block;
+    margin: 0;
+    border: 1px #3D474C solid;
+    height: 385px;
+}
+section#content div#view_project div.contain div.header{
+    display:  block;
+    height: 30px;
+  
+  
+}
+section#content div#view_project div.contain div.header div span{
+    width: 58px;
+    margin: 0;
+    border:   #343a40 1px solid;
+    border-left:   #3366ff 2px solid;
+    border-bottom: 0;
+    border-top-right-radius: 3px;
+    text-align:  center;
+    opacity: 1;
+    padding: 0;
+    background-color: #3D474C;
+     color:  rgba(255,255,255,.5);
+}
+
+section#content div#view_project div.contain div.body{
+    display:  block;
+    
+      overflow-y:   scroll;
+    height: 380px;
+    max-height:470px; 
+    
+    /* width 
+
+}
+section#content div#view_project div.contain div.body ul li a{
+    color:  rgba(255,255,255,.5);
+    border: 0;
+}
+section#content div#view_project div.profile{
+     display: block;
+    margin: 0;
+  border: 1px #3D474C solid;
+    height:255px;
+    background-color: red;
+    min-height: 100px;
+}
+
+section#content div#view_project div.profile div.header{
+    display:  block;
+    height: 30px;
+  
+  
+}
+section#content div#view_project div.profile div.header div span{
+    width: 58px;
+    margin: 0;
+    border:   #343a40 1px solid;
+    border-left:   #3366ff 2px solid;
+    border-bottom: 0;
+    border-top-right-radius: 3px;
+    text-align:  center;
+    opacity: 1;
+    padding: 0;
+      background-color: #3D474C;
+}
+
+section#content div#view_project div.profile div.body{
+    display:  block;
+   
+     
+    height: 230px;;
+    background-color: #3D474C;
+   
+    
+}
+section#content div#developpeur {
+    display: block;
+    height: 400px;
+    background-color: #3D474C;
+   // z-index: 10;
+    padding: 0;
+}
+
+section#content div#developpeur div.contain{
+    display: block;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+section#content div#developpeur div.contain h6.type{
+    height: 30px;
+     
+    border-left:   #3366ff 2px solid;
+  
+     
+}
+section#content div#developpeur div.contain h6.type span{
+    display: block;
+      height: 30px;
+      background-color: #3D474C;
+       border-top-right-radius: 3px;
+     
+}
+
+section#content div#developpeur div.contain form{
+  overflow-y: scroll;
+  display: block;
+  margin: 0;
+  padding: 0;
+      height: 367px;
+}
+section#content div#developpeur div.contain div#generate_structure
+{
+    li{
+        border-left:  black 0.9px dashed;
+    }
+    
+}
+section#content div#developpeur div.contain div#display{
+    height: 170px;
+}
+section#content div#developpeur div.contain div#code_view   div#code_manager{
+    height: 400px;
+}
+section#content div#developpeur div.contain div#code_view {
+       background-color: #3D474C;
+       height: 370px;
+}
+section#content div#developpeur div.contain div#code_view span.type{
+     height: 27px;
+     padding: 0;
+    border-left:   #3366ff 2px solid;
+   
+}
+section#content div#developpeur div.contain div#code_view span.type span{
+    
+      height: 27px;
+      background-color: #3D474C;
+      margin: 0;
+  
+       border-top-right-radius: 3px;
+}
+section#content div#developpeur div.contain div#navigator{
+      background-color: #3D474C;
+    height: 370px;
+}
+section#content div#developpeur div.contain div#navigator span.type{
+     height: 27px;
+     padding: 0;
+    border-left:   #3366ff 2px solid;
+}
+section#content div#developpeur div.contain div#navigator span.type span{
+    
+    height: 27px;
+      background-color: #3D474C;
+      margin: 0;
+  
+       border-top-right-radius: 3px;
+}
+section#content div#devtool
+{
+    display: block;
+   
+ 
+  padding: 0;
+    border: 1px #3D474C solid;
+   height:400px;
+    
+}
+section#content div#devtool div.contain {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+}
+
+section#content div#devtool div.contain div.body{
+     display: block;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+}
+section#content div#devtool div.body ul{
+    
+    height: 30px;
+     border-bottom: 2px #3D474C solid;
+}
+section#content div#devtool div.body ul li a{
+ 
+   color:  #495057;
+}
+section#content div#devtool div.body ul li a:hover{
+   border: 1px #3D474C solid;
+   color:  #ffffff;
+}
+section#content div#devtool div.body ul li a.active{
+  
+    background-color: #3D474C;
+    border: 0;
+     border-left:   #3366ff 2px solid;
+     border-radius: 0;
+      border-top-right-radius: 3px;
+      color:  #ffffff;
+}
+
+section#content div#devtool div.body div.tab-content {
+    
+    height: 370px;
+}
+section#content div#devtool div.body div.tab-content div#process ul.range{
+    overflow-y: scroll;
+    height: 295px;
+}
+section#content div#devtool div.body div.tab-content div#process ul.range li a{
+    color:  #495057;
+   cursor: text;
+}
+
+section#content div#devtool div.body div.tab-content div#process ul.range li a.checked{
+     cursor: pointer;
+}
+section#content div#devtool div.body div.tab-content div#beautify {
+    
+    height: 370px;
+}
+section#content div#devtool div.body div.tab-content div#beautify ul.range{
+   
+    overflow: hidden;
+     overflow-y: scroll;
+    height: 370px;
+   
+}
+
+section#content div#devtool div.body div.tab-content div#beautify ul.range li a{
+      height: 35px;
+}
+
+section#content div#devtool div.body div.tab-content div#beautify .checkmark {
+    
+     height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+    cursor: pointer;
+}
+section#content div#input_output{
+      max-height: 490px;
+      min-height: 100px;
+}
+section#content div#input_output div.tab-content{
+   
+    height: 210px;
+   // z-index: 4;
+     max-height: 490px;
+   min-width: 100px;
+ 
+}
+section#content div#input_output div.tab-content div#input{
+   
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+      background-color: #3D474C;
+}
+
+section#content div#input_output li a.active{
+    background-color: #3D474C;
+    border: 0;
+     border-left:   #3366ff 2px solid;
+     border-radius: 0;
+      border-top-right-radius: 3px;
+      color:  #ffffff;
+}
+section#content div#input_output div.tab-content div#output{
+   
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+      background-color: #3D474C;
+}*/
