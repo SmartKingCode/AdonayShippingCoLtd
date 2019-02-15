@@ -35,7 +35,11 @@
     "karma-jasmine": "^2.0.1",
     "popper.js": "^1.14.7",
     "pump": "^3.0.0",
+    "systemjs": "^3.0.0",
+    "systemjs-plugin-traceur": "^0.0.3",
     "tether": "^1.4.5",
-    "vue": "^2.6.6"
+    "traceur": "^0.0.111",
+    "vue": "^2.6.6",
+    "vue-i18n": "^8.8.1"
   }
 }
