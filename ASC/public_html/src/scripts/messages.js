@@ -1,5 +1,4 @@
-
-
+import Vue from 'vue';
 import VueI18n from 'vue-i18n';
 
 Vue.use(VueI18n);
@@ -7,16 +6,16 @@ Vue.use(VueI18n);
 const messages = {
     'en': {
         welcomeMsg: 'Welcome to Your Vue.js App'
-      
+       
     },
-    'fr': {
-        welcomeMsg: 'Bienvenue a ton application Vue.js'
+    'es': {
+        welcomeMsg: 'Bienvenido a tu aplicación Vue.js'
     }
 };
 
- const  i18n = new VueI18n({
-    locale: 'en', // set locale
-    fallbackLocale: 'fr', // set fallback locale
+const i18n = new VueI18n({
+    locale: 'es', // set locale
+    fallbackLocale: 'en', // set fallback locale
     messages, // set locale messages
 });
 
