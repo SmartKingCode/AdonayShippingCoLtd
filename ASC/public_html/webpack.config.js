@@ -54,7 +54,7 @@ module.exports = {
     },
     resolve: {
         alias: {
-          'vue$': 'vue/dist/vue.esm.js', // 'vue/dist/vue.common.js' for webpack 1
+          'vue$': 'vue/dist/vue.esm.js', 
           'vue-i18n': 'vue-i18n/dist/vue-i18n.esm.js'
         }
       },

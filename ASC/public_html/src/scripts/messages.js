@@ -8,14 +8,14 @@ const messages = {
         welcomeMsg: 'Welcome to Your Vue.js App'
        
     },
-    'es': {
+    'fr': {
         welcomeMsg: 'Bienvenido a tu aplicación Vue.js'
     }
 };
 
 const i18n = new VueI18n({
-    locale: 'es', // set locale
-    fallbackLocale: 'en', // set fallback locale
+    locale: 'en', // set locale
+    fallbackLocale: 'fr', // set fallback locale
     messages, // set locale messages
 });
 
