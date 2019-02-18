@@ -8,9 +8,50 @@
       
     </head>
     <body>
-        <div id="container">
+        <div id="container" class="container-fluid p-0">
            
-            <h1>{{ $t('welcomeMsg') }}</h1>
+            <header id="page-head" class="m-0 p-0">
+              
+                <nav class="navbar navbar-expand-lg navbar-white bg-white p-0 ">
+                    <a class="navbar-brand " href="#" id="company-name">
+                        <img src="./images/asc.jpg" width="80" height="60"
+                            class="d-inline-block align-between" alt="Found">
+                       ADONAY SHIPPING Co. LTD
+                    </a>
+
+                    <button class="navbar-toggler mr-2 border" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fas fa-bars"></span>
+                      </button>
+
+                      <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav ml-auto mr-1 ">
+                          <li class="nav-item active pt-2 ">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item pt-2 ">
+                            <a class="nav-link" href="#">Services</a>
+                          </li>
+                          <li class="nav-item pt-2 ">
+                            <a class="nav-link" href="#">About Us</a>
+                          </li>
+                          <li class="nav-item pt-2 ">
+                            <a class="nav-link" href="#">Contact Us</a>
+                          </li>
+                          <li class="nav-item dropdown pt-2 ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-globe-africa"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">En</a>
+                              <a class="dropdown-item" href="#">Fr</a>
+                             
+                          </li>
+                         
+                        </ul>
+                        
+                      </div>
+                </nav>
+            </header>
         </div>
         
     </body>
