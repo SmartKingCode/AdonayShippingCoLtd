@@ -20,6 +20,18 @@ Vue.config.productionTip = false;
 
 new Vue({
     i18n,
+    data: {
+        selected: 1
+      },
+    methods: {
+        active: function (){
+            alert('Try event');
+        },
+        locale: function(locale){
+           
+           i18n.locale = locale;
+        }
+    }
     
 }).$mount('#container');
 

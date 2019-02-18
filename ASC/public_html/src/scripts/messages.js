@@ -5,11 +5,17 @@ Vue.use(VueI18n);
 
 const messages = {
     'en': {
-        welcomeMsg: 'Welcome to Your Vue.js App'
+        home: 'Home',
+        service: 'Services',
+        about: 'About Us',
+        contact: 'Contact Us'
        
     },
     'fr': {
-        welcomeMsg: 'Bienvenido a tu aplicación Vue.js'
+       home: 'Acceuil',
+       service: 'Services',
+       about: 'A propos',
+       contact: 'Contactez'
     }
 };
 
