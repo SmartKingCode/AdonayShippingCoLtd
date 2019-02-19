@@ -8,14 +8,21 @@ const messages = {
         home: 'Home',
         service: 'Services',
         about: 'About Us',
-        contact: 'Contact Us'
+        contact: 'Contact Us',
+        caption11:'is a company of ,',
+        caption12: 'consignment in the maritime sector .',
+        caption13: 'It is ranked among the best in TOGO'
        
     },
     'fr': {
        home: 'Acceuil',
        service: 'Services',
        about: 'A propos',
-       contact: 'Contactez'
+       contact: 'Contactez',
+       caption11:'est une entreprise de , ',
+       caption12: 'consignation dans le secteur maritime .',
+       caption13: 'Elle est classée parmi les meilleurs au TOGO'
+        
     }
 };
 
