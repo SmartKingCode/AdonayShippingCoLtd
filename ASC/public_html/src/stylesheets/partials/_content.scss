@@ -57,7 +57,29 @@
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
+    section#content{
 
+      div#carouselIndicators{
+          img{
+              height: 450px;
+          }
+          .carousel-caption{
+          
+            position: absolute;
+            left: 30px;
+            line-height: 2rem;
+            #caption{
+                position: relative;
+                top: -25px;
+                left: 15px;
+               
+                p{
+                  font-size: 1em;
+                }
+            }
+          }
+      }
+    }
     
   }
   
@@ -68,7 +90,29 @@
   
   @media (min-width: 481px) and (max-width: 767px) {
     
-    
+    section#content{
+
+      div#carouselIndicators{
+          img{
+              height: 450px;
+          }
+          .carousel-caption{
+          
+            position: absolute;
+            left: 30px;
+            line-height: 2rem;
+            #caption{
+                position: relative;
+                top: -25px;
+                left: 15px;
+               
+                p{
+                  font-size: 1em;
+                }
+            }
+          }
+      }
+    }
    
   }
   
