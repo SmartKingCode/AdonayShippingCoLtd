@@ -2,10 +2,55 @@
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
-
+div#service{
+  overflow-x: hidden;
+    
+    
+     
+    h3{
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .col-head{
+      height: 80px;
+      width: 80px;
+      background-color: darkblue;
+      border-radius: 100%;
+   
+      
+    }
+      
+    }
+    div#about{
+      overflow-x: hidden;
+      height: 500px;
+    }
+ 
 @media (min-width: 1281px) {
   
     //CSS
+    section#content{
+
+      div#carouselIndicators{
+          img{
+              height: 750px;
+          }
+          .carousel-caption{
+          
+            position: absolute;
+            left: 30px;
+            line-height: 3rem;
+            #caption{
+                position: relative;
+                top: 120px;
+                left: 15px;
+                text-align: left;
+            }
+          }
+      }
+
+
+    }
     
   }
   
@@ -17,6 +62,29 @@
   @media (min-width: 1025px) and (max-width: 1280px) {
     
     //CSS
+    section#content{
+
+      div#carouselIndicators{
+          img{
+              height: 650px;
+          }
+          .carousel-caption{
+          
+            position: absolute;
+            left: 30px;
+            line-height: 3rem;
+            #caption{
+                position: relative;
+                top: 100px;
+                left: 15px;
+                text-align: left;
+            }
+          }
+      }
+
+   
+       
+    }
     
   }
   
@@ -28,40 +96,11 @@
 
   
   @media (min-width: 768px) and (max-width: 1024px) {
-  
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  section#content{
-
-    div#carouselIndicators{
-        img{
-            height: 700px;
-        }
-        .carousel-caption{
-        
-          position: absolute;
-          left: 30px;
-          line-height: 3rem;
-          #caption{
-              position: relative;
-              top: 120px;
-              left: 15px;
-          }
-        }
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
     section#content{
 
       div#carouselIndicators{
           img{
-              height: 450px;
+              height: 600px;
           }
           .carousel-caption{
           
@@ -70,14 +109,47 @@
             line-height: 2rem;
             #caption{
                 position: relative;
-                top: -25px;
+                top: 80px;
                 left: 15px;
-               
+                text-align: left;
+            }
+          }
+      }
+
+       
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+ 
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    section#content{
+
+      div#carouselIndicators{
+          img{
+              height: 550px;
+          }
+          .carousel-caption{
+          
+            position: absolute;
+            left: 30px;
+            line-height: 2rem;
+            #caption{
+                position: relative;
+                top: 60px;
+                left: 15px;
+                text-align: left;
                 p{
                   font-size: 1em;
                 }
             }
           }
+          
       }
     }
     
@@ -90,11 +162,11 @@
   
   @media (min-width: 481px) and (max-width: 767px) {
     
-    section#content{
+   section#content{
 
       div#carouselIndicators{
           img{
-              height: 450px;
+              height: 500px;
           }
           .carousel-caption{
           
@@ -103,14 +175,16 @@
             line-height: 2rem;
             #caption{
                 position: relative;
-                top: -25px;
+                top: 40px;
                 left: 15px;
+                text-align: left;
                
                 p{
                   font-size: 1em;
                 }
             }
           }
+           
       }
     }
    
@@ -123,8 +197,28 @@
   
   @media (min-width: 320px) and (max-width: 480px) {
     
-  
+    section#content{
+
+      div#carouselIndicators{
+          img{
+              height: 450px;
+          }
+
+          #caption{
+            position: relative;
+            top: 10px;
+            left: 10px;
+           
+           
+            p{
+              font-size: 1em;
+              text-align: center;
+            }
+        }
+          
+      }
+   
+       
+    }
   }
-
-
 
