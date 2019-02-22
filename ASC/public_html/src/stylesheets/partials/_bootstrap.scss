@@ -1,31 +1,33 @@
 
 .nav-item{
-    height: 70px;
+    height: 60px;
     width: 120px;
     text-align: center;
-    
+    padding-top: 12px;
+    margin-left: 1px;
 }
 .nav-item:hover{
-    border-top: darkblue 2.5px solid ;
+
     opacity: 0.7;
-    background-color: rgb(226, 226, 241);
+   background-color: darkblue;
      
      .nav-link{
          font-weight: bold;
-        color: black;
+        color: white;
         
      }
 }
 
 
 .nav-item.active{
-   border-top: darkblue 2.5px solid ;
+    //border-top: darkblue 2px solid ;
    opacity: 0.7;
-   background-color: rgb(226, 226, 241);
-    
+   background-color: darkblue;
+  
+
     .nav-link{
-        font-weight: bold;
-        color: black;
+        
+        color: white;
     }
 }
 
@@ -33,3 +35,7 @@
   
    min-width: 7.5rem;
 }
+
+button.navbar-toggler{
+   background-color: darkblue;
+} 

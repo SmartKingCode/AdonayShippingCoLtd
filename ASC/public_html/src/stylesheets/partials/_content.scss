@@ -2,6 +2,7 @@
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
+
 div#service{
   overflow-x: hidden;
     
@@ -19,6 +20,16 @@ div#service{
    
       
     }
+    .service-description{
+      h5{
+        font-size: 1em;
+        font-weight: 600;
+      }
+      p{
+        font-size: 1em;
+        font-weight: 400;
+      }
+    }
       
     }
     div#about{
@@ -33,16 +44,16 @@ div#service{
 
       div#carouselIndicators{
           img{
-              height: 750px;
+              height: 600px;
           }
           .carousel-caption{
           
             position: absolute;
-            left: 30px;
+            left: 160px;
             line-height: 3rem;
             #caption{
                 position: relative;
-                top: 120px;
+                top: 60px;
                 left: 15px;
                 text-align: left;
             }

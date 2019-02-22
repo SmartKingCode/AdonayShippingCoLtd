@@ -13,31 +13,31 @@
             <header id="page-head" class="m-0 p-0">
               
                 <nav class="navbar navbar-expand-lg  fixed-top navbar-white bg-white p-0 " id="navigation">
-                    <a class="navbar-brand " href="#" id="company-name">
-                        <img src="./images/asc.jpg" width="80" height="60"
+                  <a class="navbar-brand " href="#" id="company-name">
+                        <img src="./images/asc.jpg" width="55" height="40"
                             class="d-inline-block align-between" alt="Found">
                      <span>ADONAY SHIPPING Co. LTD</span>  
                     </a>
 
-                    <button class="navbar-toggler mr-2 " type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fas fa-bars"></span>
+                    <button class="navbar-toggler mr-2 rounded-0 " type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fas fa-bars text-white" id="sm-screen-nav"></span>
                       </button>
-
-                      <div class="collapse navbar-collapse" id="navbarContent">
-                        <ul class="navbar-nav ml-auto mr-1 ">
-                          <li class="nav-item  pt-2 " @click="selected = 1" :class="{active:selected == 1}">
-                            <a class="nav-link h-100" href="#carouselIndicators" >{{$t('home')}} <span class="sr-only">(current)</span></a>
+                  
+                      <div class="collapse  navbar-collapse " id="navbarContent">
+                        <ul class="navbar-nav ml-auto mr-1 pt-0">
+                          <li class="nav-item  " @click="selected = 1" :class="{active:selected == 1}">
+                            <a class="nav-link  h-100 " href="#carouselIndicators" >{{$t('home')}} <span class="sr-only">(current)</span></a>
                           </li>
-                          <li class="nav-item pt-2 "  @click="selected = 2" :class="{active:selected == 2}">
+                          <li class="nav-item  "  @click="selected = 2" :class="{active:selected == 2}">
                             <a class="nav-link h-100" href="#goservice" >{{$t('service')}}</a>
                           </li>
-                          <li class="nav-item pt-2 "  @click="selected = 3" :class="{active:selected == 3}">
+                          <li class="nav-item  "  @click="selected = 3" :class="{active:selected == 3}">
                             <a class="nav-link h-100" href="#about" >{{$t('about')}}</a>
                           </li>
-                          <li class="nav-item pt-2 "  @click="selected = 4" :class="{active:selected == 4}">
+                          <li class="nav-item  "  @click="selected = 4" :class="{active:selected == 4}">
                             <a class="nav-link h-100" href="#contact" >{{$t('contact')}}</a>
                           </li>
-                          <li class="nav-item dropdown pt-2  "  >
+                          <li class="nav-item dropdown   "  >
                             <a class="nav-link dropdown-toggle h-100"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-globe-africa"></i>
                             </a>
@@ -56,21 +56,21 @@
             <section id="content" data-spy="scroll" data-target="#navigation">
            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="0" class="active font-weight-bolder"></li>
                   <li data-target="#carouselIndicators" data-slide-to="1"></li>
                   <li data-target="#carouselIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner p-0">
                   <div class="carousel-item active p-0 ">
                    
-                    <img src="./images/contenaire.jpg" class="d-block w-100" alt="...">
+                    <img src="./images/slider.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption  d-xs-block d-sm-block d-md-block h-75 ">
                       <div class="  " id="caption">
                           <h1 class="font-weight-bolder">Adonay Shipping Co. Ltd,</h1>
                           <p class="mt-1 h5">{{$t('caption11')}}<br/>
                             {{$t('caption12')}}<br/>
                             {{$t('caption13')}} [...] <br/>
-                            <a class="btn  btn-sm  btn-primary mt-2"> {{$t('read')}} <i class="fa fa-arrow-right"></i></a>
+                            <a class="btn  btn-sm  p-2 bg-darkblue mt-2"> {{$t('read')}} <i class="fa fa-arrow-right"></i></a>
                           </p>
                       </div>
 
@@ -110,52 +110,122 @@
 
                   </div>
                 </div>
-               <!-- <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="carousel-control-next-icon text-danger" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
-                </a>-->
+                </a>
               </div>
-
+               
               <div id="service" >
                 <div class="service-head pt-3 h-25 ">
-                <h2 class="text-center   font-weight-bolder h-100" id="goservice"> Services </h2>
+                <h2 class="text-center text-uppercase   font-weight-bolder h-100 pt-1" id="goservice">  <span class="line h2  font-weight-bolder ">Our</span>  Services
+                 </h2>
+              
                 
               </div>
-              <div class="service-body h-75 mt-3">
-                <div class="row h-100">
-                    <div class="col-sm text-center p-2  pt-4">
-                        <div class="d-flex justify-content-center " ><div class="col-head pt-3 "> <i class="fa fa-user-secret text-white fa-2x"></i></div> </div>
-                        <div class="p-4">
-                          <h3>OWNNER REPRESENTATIVE</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+              <div class="service-body h-75 mt-3 container pl-2 pr-2">
+                <div class="row  ">
+                
+
+                  <div class="col-sm text-center p-2  pt- 3">
+                      <div class=" card pt-3 " >
+                          <div class="d-flex">
+                          <div class="p-2 pt-3 pr-3">
+                           <i class="fa fa-user-secret text-darkblue float-left fa-2x"></i>
+
+                          </div>
+                          <div class="service-description pt-3 text-left">
+                              <h5>OWNER REPRESENTATIVE</h5>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                            </div>
+                            </div>
                         </div>
-                      </div>
-                  <div class="col-sm text-center p-2  pt-4">
-                      <div class="d-flex justify-content-center " ><div class="col-head pt-3 "> <i class="fa fa-user-alt text-white fa-2x"></i></div> </div>
-                    <div class="p-4">
-                      <h3>CREW CHANGE</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
-                    </div>
                   </div>
-                  <div class="col-sm text-center p-2  pt-4">
-                    <div class="d-flex justify-content-center " ><div class="col-head pt-4 "> <i class="fa fa-newspaper text-white fa-2x"></i></div> </div>
-                      <div class="p-4">
-                          <h3>SPARES PART CLEARANCE</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
-                      </div>
-                    </div>
-                    <div class="col-sm text-center p-2  pt-4">
-                        <div class="d-flex justify-content-center " ><div class="col-head pt-4 "> <i class="fa fa-cookie text-white fa-2x"></i></div> </div>
-                        <div class="p-4">
-                            <h3>PROVISION SUPPLY</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                  <div class="col-sm text-center p-2  pt-3">
+                      <div class=" card h-100 pt-3 " >
+                          <div class="d-flex">
+                          <div class="p-2 pt-4">
+                           <i class="fa fa-user-secret text-primary float-left fa-2x"></i>
+
+                          </div>
+                          <div class="service-description pt-4">
+                              <h5>OWNER REPRESENTATIVE</h5>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                            </div>
+                            </div>
                         </div>
+
+
+                    </div>
+                    <div class="col-sm text-center p-2  pt-3">
+                        <div class=" card h-100 pt-3 " >
+                            <div class="d-flex">
+                            <div class="p-2 pt-2">
+                             <i class="fa fa-user-secret text-primary float-left fa-2x"></i>
+  
+                            </div>
+                            <div class="service-description pt-3 text-left">
+                                <h5>OWNER REPRESENTATIVE</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                              </div>
+                              </div>
+                          </div>
+                       
                       </div>
                 </div>
+                <div class="row  ">
+                
+
+                    <div class="col-sm text-center p-2  pt-3">
+                        <div class=" card h-100 pt-3 " >
+                            <div class="d-flex">
+                            <div class="p-2 pt-4">
+                             <i class="fa fa-user-secret text-primary float-left fa-2x"></i>
+  
+                            </div>
+                            <div class="service-description pt-4">
+                                <h5>OWNER REPRESENTATIVE</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                              </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="col-sm text-center p-2  pt-3">
+                        <div class=" card h-100 pt-3 " >
+                            <div class="d-flex">
+                            <div class="p-2 pt-4">
+                             <i class="fa fa-user-secret text-primary float-left fa-2x"></i>
+  
+                            </div>
+                            <div class="service-description pt-4">
+                                <h5>OWNER REPRESENTATIVE</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                              </div>
+                              </div>
+                          </div>
+  
+  
+                      </div>
+                      <div class="col-sm text-center p-2  pt-3">
+                          <div class=" card h-100 pt-3 " >
+                              <div class="d-flex">
+                              <div class="p-2 pt-4">
+                               <i class="fa fa-user-secret text-primary float-left fa-2x"></i>
+    
+                              </div>
+                              <div class="service-description pt-4">
+                                  <h5>OWNER REPRESENTATIVE</h5>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                                </div>
+                                </div>
+                            </div>
+                         
+                        </div>
+                  </div>
               </div>
             
            

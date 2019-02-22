@@ -5,9 +5,10 @@
  */
 
 
-import '../stylesheets/styles.scss';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../stylesheets/styles.scss';
+
 import '@fortawesome/fontawesome-free/js/all';
 
 import Vue from 'vue';
