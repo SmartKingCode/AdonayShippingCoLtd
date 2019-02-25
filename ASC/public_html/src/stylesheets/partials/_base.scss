@@ -22,7 +22,41 @@ span.line{
     
     border-bottom: 2.5px solid darkblue;
     text-align: center;
+    margin-top: 0;
 }
-i.text-darkblue{
+span.colordark{
     color: darkblue;
+}
+
+.parralax{
+    /* The image used */
+  background-image: url("/src/images/getty.jpg");
+
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+ #why-choose-us{
+
+    h6{
+        color: white;
+        font-size: 5rem;
+        font-weight: bold;
+    
+    }
+    p{
+font-size:   1.2rem;
+  }
+   .row p.rank,   .row p.rank span{
+    font-size:   1.5rem;
+
+      }
+}
+ 
 }

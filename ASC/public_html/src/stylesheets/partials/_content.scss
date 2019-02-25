@@ -6,7 +6,12 @@
 div#service{
   overflow-x: hidden;
     
-    
+ // height: 400px;
+
+  .card{
+    height: 250px;
+    padding-top: 20px;
+  }
      
     h3{
       font-size: 1.2em;
@@ -30,11 +35,20 @@ div#service{
         font-weight: 400;
       }
     }
-      
+
+    
     }
+   
     div#about{
       overflow-x: hidden;
-      height: 500px;
+      //background-color: lightgrey;
+     // height: 500px;
+  // background-color:  rgb(rgb(219, 212, 212), rgb(140, 141, 140), rgb(60, 60, 61));
+
+
+    }
+    div#team{
+      height: 200px;;
     }
  
 @media (min-width: 1281px) {
