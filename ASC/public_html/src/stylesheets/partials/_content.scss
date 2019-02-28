@@ -67,6 +67,9 @@
           
               
             }
+            .service-body{
+              padding-left: 100px;
+            }
             .service-description{
               h5{
                 font-size: 1em;
@@ -214,6 +217,10 @@
             border-radius: 100%;
          
             
+          }
+
+          .service-body{
+            padding-left: 40px;
           }
           .service-description{
             h5{
@@ -363,6 +370,9 @@
         
             
           }
+          .service-body{
+            padding-left: 20px;
+          }
           .service-description{
             h5{
               font-size: 1em;
@@ -428,6 +438,23 @@
         }
   
       }
+
+      .parralax #why-choose-us{
+
+        h6{
+          font-size: 4em; 
+        }
+        p{
+          font-size: 1.4em;
+        }
+        span.d-block{
+          font-size: 1.4em;
+        }
+        p.speech{
+          font-size: 1em;
+        }
+     
+      }
        div#contact{
             height: 500px;
             padding-left: 20px;
@@ -442,6 +469,9 @@
             height: 390px;
             margin-top: 10px;
       
+          }
+          input{
+            width: 100%;
           }
       
           textarea{
@@ -833,7 +863,7 @@
      
          }
          input{
-           width: 70%;
+           width: 90%;
            text-align: right;
          }
        
@@ -845,7 +875,7 @@
          textarea{
            height: 180px;
          //  width: 170px;
-         width: 80%;
+         width: 95%;
           
          }
 
@@ -868,7 +898,7 @@
   @media (min-width: 320px) and (max-width: 480px) {
     
     section#content{
-
+        overflow: hidden;
       div#carouselIndicators{
           img{
               height: 450px;
