@@ -5,7 +5,7 @@
 
 @media (min-width: 1281px) {
   header,nav{
-    height: 60px;
+    height: 70px;
   }
   //CSS
   #company-name{
@@ -17,8 +17,10 @@
   }
   
   nav li a{
-    font-size: 1,1em;
-    color: black;
+  
+    color: rgb(42, 42, 48);
+    font-size: 1.1em;
+    text-transform:  capitalize;
   }
   
 }
@@ -30,7 +32,7 @@
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   header,nav{
-    height: 60px;
+    height: 70px;
   }
   //CSS
   #company-name{
@@ -41,8 +43,9 @@
     }
   }
   nav li a{
-    font-size: 1,1em;
-    color: black;
+    color: rgb(42, 42, 48);
+    font-size: 1.1em;
+    text-transform:  capitalize;
   }
  
 }
@@ -56,8 +59,9 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   header,nav{
-    height: 60px;
+    height: 70px;
   }
+  //CSS
   #company-name{
     span{
     color: darkblue;
@@ -65,9 +69,12 @@
     font-weight: 600;
     }
   }
+  
   nav li a{
-    font-size: 1,1em;
-    color: black;
+  
+    color: rgb(42, 42, 48);
+    font-size: 1.1em;
+    text-transform:  capitalize;
   }
 
 }
@@ -80,24 +87,28 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
   header,nav{
-    height: 60px;
+    height: 70px;
   }
+  //CSS
   #company-name{
     span{
     color: darkblue;
-    font-size: 1.0em;
+    font-size: 1.1em;
     font-weight: 600;
     }
   }
+  
   nav li a{
-    font-size: 1,1em;
-    color: black;
+  
+    color: rgb(42, 42, 48);
+    font-size: 1.1em;
+    text-transform:  capitalize;
   }
   #navbarContent{
     
     
     ul{
-        display: block;
+       // display: block;
           width: 100%;
           background-color: white;
           
@@ -111,8 +122,9 @@
   }
   #drop{
 
-      min-width: 100%;
-      text-align: center;
+     // min-width: 100%;
+    //@warn  text-align: center;
+      //position: relative;
    }
   
 }
@@ -125,7 +137,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
 
   header,nav{
-    height: 60px;
+    height: 70px;
   }
   #company-name{
     span{

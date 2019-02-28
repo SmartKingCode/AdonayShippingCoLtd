@@ -6,11 +6,12 @@
 * {
     margin: 0;
     padding: 0;
-    font: 16px Helvetica,arial, sans-serif;
+    font: 16px "Times New Roman",arial, sans-serif;
     font-weight: 600;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+  //  overflow-x: hidden;
 }
 
 a.bg-darkblue{
@@ -43,7 +44,7 @@ span.colordark{
 
 
  #why-choose-us{
-
+    padding-bottom: 15px;
     h6{
         color: white;
         font-size: 5rem;
@@ -53,10 +54,30 @@ span.colordark{
     p{
 font-size:   1.2rem;
   }
-   .row p.rank,   .row p.rank span{
-    font-size:   1.5rem;
+   .row .rank p,   .row .rank span{
+    font-size:   2rem;
 
       }
 }
  
 }
+
+#myBtn {
+   // display: none;
+    position: fixed;
+    bottom: 140px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    
+   // border-radius: 100%;
+  }
+  
+  #myBtn:hover {
+    background-color: darkblue;
+  }
