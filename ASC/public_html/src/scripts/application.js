@@ -14,8 +14,10 @@ import '@fortawesome/fontawesome-free/js/all';
 
 import Vue from 'vue';
 import loadMap from 'load-google-maps-api';
+import MenuSpy from 'menuspy';
 
 import i18n from './messages';
+import ScrollSpy from './vanillajs-scrollspy.min';
 
 
 
@@ -56,4 +58,12 @@ new Vue({
 
 
 
-  
+    let elm = document.querySelector('#page-head');
+ 
+    let ms = new MenuSpy(elm);
+
+   
+    
+    const navbar = document.querySelector('.navbar');
+    const scrollspy = new ScrollSpy(navbar);
+    scrollspy.init();

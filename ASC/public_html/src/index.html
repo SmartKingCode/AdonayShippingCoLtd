@@ -10,11 +10,11 @@
 </head>
 
 <body>
-  <div id="container" class="container-fluid p-0">
+  <div id="container" class="container-fluid p-0" >
 
     <header id="page-head" class="m-0 p-0">
 
-      <nav class="navbar navbar-expand-lg  fixed-top navbar-white bg-white p-0 " id="navigation">
+      <nav class="navbar navbar-expand-lg  fixed-top navbar-white bg-white p-0 "  id="navigation">
         <a class="navbar-brand " href="#" id="company-name">
           <img src="./images/asc.jpg" width="60" height="45" class="d-inline-block align-between" alt="Found">
           <span>ADONAY SHIPPING Co. LTD</span>
@@ -28,11 +28,11 @@
         <div class="collapse  navbar-collapse " id="navbarContent">
           <ul class="navbar-nav ml-auto mr-1 pt-0">
             <li class="nav-item  " @click="selected = 1" :class="{active:selected == 1}">
-              <a class="nav-link  h-100 " href="#carouselIndicators">{{$t('home')}} <span
+              <a class="nav-link  h-100 " href="#page-head">{{$t('home')}} <span
                   class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item  " @click="selected = 2" :class="{active:selected == 2}">
-              <a class="nav-link  h-100" href="#goservice">{{$t('service')}}</a>
+              <a class="nav-link  h-100" href="#service">{{$t('service')}}</a>
             </li>
             <li class="nav-item  " @click="selected = 3" :class="{active:selected == 3}">
               <a class="nav-link h-100" href="#about">{{$t('about')}}</a>
@@ -59,7 +59,7 @@
       </nav>
     </header>
 
-    <section id="content" data-spy="scroll" data-target="#navigation">
+    <section id="content" >
       <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselIndicators" data-slide-to="0" class="active font-weight-bolder"></li>
@@ -128,7 +128,7 @@
 
       <div id="service" class="">
         <div class="service-head pt-3  ">
-          <h2 class="text-center text-capitalize   font-weight-bolder h-100 pt-1" id="goservice"> Our Services
+          <h2 class="text-center text-capitalize   font-weight-bolder h-100 pt-1" id=""> Our Services
           </h2>
 
 
@@ -476,7 +476,7 @@
                   </div>
                   
                   <div class="col-sm-1 text-right ">
-                    <button onclick="topFunction()" class="p-3" id="myBtn" title="Go to top"><i class="fa small fa-arrow-up"></i></button>
+                    <a onclick="topFunction()" class="p-3" href="#page-head" id="myBtn" title="Go to top"><i class="fa small fa-arrow-up"></i></a>
                   </div>
                 </div>
                
