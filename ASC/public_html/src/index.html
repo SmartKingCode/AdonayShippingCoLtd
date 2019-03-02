@@ -26,18 +26,18 @@
         </button>
 
         <div class="collapse  navbar-collapse " id="navbarContent">
-          <ul class="navbar-nav ml-auto mr-1 pt-0">
-            <li class="nav-item  " @click="selected = 1" :class="{active:selected == 1}">
+          <ul class="navbar-nav ml-auto mr-1 pt-0  ">
+            <li class="nav-item  " @click="selectedItem(1)" :class="{active:selected == 1}">
               <a class="nav-link  h-100 " href="#page-head">{{$t('home')}} <span
                   class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item  " @click="selected = 2" :class="{active:selected == 2}">
+            <li class="nav-item  " @click="selectedItem(2)" :class="{active:selected == 2}">
               <a class="nav-link  h-100" href="#service">{{$t('service')}}</a>
             </li>
-            <li class="nav-item  " @click="selected = 3" :class="{active:selected == 3}">
+            <li class="nav-item  " @click="selectedItem(3)" :class="{active:selected == 3}">
               <a class="nav-link h-100" href="#about">{{$t('about')}}</a>
             </li>
-            <li class="nav-item  " @click="selected = 4" :class="{active:selected == 4}">
+            <li class="nav-item  " @click="selectedItem(4)" :class="{active:selected == 4}">
               <a class="nav-link h-100" href="#contact">{{$t('contact')}}</a>
             </li>
             <li class="nav-item dropdown   ">
@@ -277,20 +277,20 @@
                     <i class="	fas fa-chess-king  fa-3x"></i>
                     </span>
 
-                  <div class="text-white rank mt-4"><span class="d-block">123</span><p>Projects</p></div>
+                  <div class="text-white rank mt-4"> <span class="d-block counter-value" data-count="1250">0</span><p>Projects</p></div>
                 </div>
                   <div class="col-sm">
                       <span class="colordark">
                     <i class="		fas fa-chess fa-3x"></i>
                     </span>
-                    <div class="text-white rank mt-4"><span class="d-block">123</span><p>Collaborators</p></div>
+                    <div class="text-white rank mt-4"><span class="d-block counter-value" data-count="125">0</span><p>Collaborators</p></div>
                   </div>
                   <div class="col-sm">
                       <span class="colordark">
                     
                     <i class="fas fa-chess-rook fa-3x"></i>
                     </span>
-                    <div class="text-white rank mt-4"><span class="d-block">123</span> <p>Clients</p></div>
+                    <div class="text-white rank mt-4"><span class="d-block counter-value" data-count="410">0</span> <p>Clients</p></div>
             </div>
           </div>
 
@@ -476,7 +476,7 @@
                   </div>
                   
                   <div class="col-sm-1 text-right ">
-                    <a onclick="topFunction()" class="p-3" href="#page-head" id="myBtn" title="Go to top"><i class="fa small fa-arrow-up"></i></a>
+                    <a onclick="topFunction()" class="p-3 scrollTop" href="#" id="myBtn" title="Go to top"><i class="fa small fa-arrow-up"></i></a>
                   </div>
                 </div>
                

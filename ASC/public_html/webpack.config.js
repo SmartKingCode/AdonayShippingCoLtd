@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
@@ -60,9 +61,14 @@ module.exports = {
         alias: {
           'vue$': 'vue/dist/vue.esm.js', 
           'vue-i18n': 'vue-i18n/dist/vue-i18n.esm.js'
+     
         }
       },
     plugins: [
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            JQuery : 'jquery'
+        }),
         extractPlugin,
         //Take html template and create new html with same name to the /dist folder
         new HtmlWebpackPlugin({
