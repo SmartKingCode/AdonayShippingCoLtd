@@ -128,7 +128,7 @@
 
       <div id="service" class="">
         <div class="service-head pt-3  ">
-          <h2 class="text-center text-capitalize   font-weight-bolder h-100 pt-1" id=""> Our Services
+          <h2 class="text-center text-capitalize   font-weight-bolder h-100 pt-1" id=""> {{$t('block1')}}
           </h2>
 
 
@@ -146,10 +146,10 @@
 
                 </div>
                 <div class="service-description card-body ">
-                  <h5 class="mb-0">OWNER REPRESENTATIVE</h5>
+                  <h5 class="mb-0">{{$t('serviceName1')}}</h5>
                   
                   <span class="line text-white">xxxxxxx</span>
-                  <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                  <p class="mt-3">{{$t('serviceDesc1')}}</p>
                 </div>
               </div>
 
@@ -165,10 +165,10 @@
                  
                 </div>
                 <div class="service-description card-body">
-                  <h5 class="mb-0">CREW CHANGE</h5>
+                  <h5 class="mb-0">{{$t('serviceName2')}}</h5>
                   <span class="line text-white">xxxxxxx</span>
 
-                  <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                  <p class="mt-3">{{$t('serviceDesc2')}} </p>
                 </div>
               </div>
 
@@ -183,7 +183,7 @@
 
                   </div>
                   <div class="service-description card-body">
-                    <h5 class="mb-0">SHIP'S SCHANDLER</h5>
+                    <h5 class="mb-0">BIETC</h5>
                     <span class="line text-white">xxxxxxx</span>
   
                       <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
@@ -209,10 +209,10 @@
 
                 </div>
                 <div class="service-description card-body">
-                  <h5 class="mb-0">PROVISION SUPPLY</h5>
+                  <h5 class="mb-0">{{$t('serviceName3')}}</h5>
                   
                   <span class="line text-white">xxxxxxx</span>
-                  <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                  <p class="mt-3">{{$t('serviceDesc3')}} </p>
                 </div>
               </div>
 
@@ -227,10 +227,10 @@
                  
                 </div>
                 <div class="service-description card-body">
-                  <h5 class="mb-0">SPARES PART CLEARANCE</h5>
+                  <h5 class="mb-0">{{$t('serviceName4')}}</h5>
                   <span class="line text-white">xxxxxxx</span>
 
-                  <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                  <p class="mt-3">{{$t('serviceDesc4')}}</p>
                 </div>
                 
               </div>
@@ -246,10 +246,10 @@
 
                   </div>
                   <div class="service-description card-body">
-                    <h5 class="mb-0">CREWING AGENCY</h5>
+                    <h5 class="mb-0">{{$t('serviceName5')}}</h5>
                     <span class="line text-white">xxxxxxx</span>
   
-                      <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                      <p class="mt-3">{{$t('serviceDesc5')}}</p>
                     </div>
                     </div>
                 
@@ -266,48 +266,43 @@
       </div>
       <div class=" parralax text-center">
         <div class="text-center pt-2  " id="why-choose-us">
-          <h6 class="   text-monospace">Why Choose Us</h6>
+          <h6 class="   text-monospace">{{$t('block4')}}</h6>
           <img src="./images/line.png" alt=".."/>
           <span class="line "><span class="d-none">xxxxxxxxxx</span></span>
-          <p class="text-monospace speech text-white font-weight-bolder mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Eos atque quis iste obcaecati exercitationem corporis aspernatur <br>quae inventore quod illum? Libero, accusamus.</p>
+          <p class=" speech text-white font-weight-bolder mt-2" v-html="$t('whyChooseUs')"></p>
             <div class="row pt-3">
                   <div class="col-sm">
                       <span class="colordark">
                     <i class="	fas fa-chess-king  fa-3x"></i>
                     </span>
 
-                  <div class="text-white rank mt-4"> <span class="d-block counter-value" data-count="1250">0</span><p>Projects</p></div>
+                  <div class="text-white rank mt-4"> <span class="d-block counter-value" data-count="1250">0</span><p>{{$t('whyProject')}}</p></div>
                 </div>
                   <div class="col-sm">
                       <span class="colordark">
                     <i class="		fas fa-chess fa-3x"></i>
                     </span>
-                    <div class="text-white rank mt-4"><span class="d-block counter-value" data-count="125">0</span><p>Collaborators</p></div>
+                    <div class="text-white rank mt-4"><span class="d-block counter-value" data-count="125">0</span><p>{{$t('whyCollab')}}</p></div>
                   </div>
                   <div class="col-sm">
                       <span class="colordark">
                     
                     <i class="fas fa-chess-rook fa-3x"></i>
                     </span>
-                    <div class="text-white rank mt-4"><span class="d-block counter-value" data-count="410">0</span> <p>Clients</p></div>
+                    <div class="text-white rank mt-4"><span class="d-block counter-value" data-count="410">0</span> <p>{{$t('whyClient')}}</p></div>
             </div>
           </div>
 
           </div>
       <div id="about" class="jumbotron bg-white pt-3 pb-2">
         <div class="about-head text-center mb-4 ">
-          <h2 class="text-center   font-weight-bolder"> About Us </h2>
+          <h2 class="text-center   font-weight-bolder"> {{$t('block2')}} </h2>
           <img src="./images/line.png" class="mt-0 " alt=".."/>
 
         </div>
         <div class="about-body ">
-            <p class="text-center">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi fugiat  
-                ducimus, aut, molestias 
-                aspernatur molestiae suscipit veniam <br>
-                 aut, molestias 
-                aspernatur molestiae suscipit veniam!
+            <p class="text-center" v-html="$t('aboutDescription')">
+             
               </p>
 
               <div class=" container-fluid pt-3 mb-3">
@@ -315,20 +310,17 @@
                   <div class="col-sm-4 text-center">
                     <img src="./images/nobody.png" alt="..."/>
                     <h5>ASSOCIATES</h5>
-                      <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut amet ,
-                          consectetur .</p>
+                      <p class=""> {{$t('aboutAssociate')}}</p>
                     </div>
                     <div class="col-sm-4 text-center">
                         <img src="./images/world.jpg" alt="..."/>
                         <h5>WORLDWIDE</h5>
-                          <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut amet ,
-                              consectetur .</p>
+                          <p class=""> {{$t('aboutWorldwide')}}</p>
                         </div>
                         <div class="col-sm-4 text-center">
                             <img src="./images/nobody3.png" alt="..."/>
                             <h5>EXPERTS</h5>
-                              <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut amet ,
-                                  consectetur .</p>
+                              <p class=""> {{$t('aboutExpert')}}</p>
                             </div>
               </div>
 
@@ -403,7 +395,7 @@
 
       <div id="contact" class="bg-light">
           <div class="contact-head text-center ">
-              <h2 class="text-center font-weight-bolder h-100 "> Contacts Us </h2>
+              <h2 class="text-center font-weight-bolder h-100 "> {{$t('block3')}}</h2>
               <img src="./images/line.png" class="mt-0 " alt=".."/>
             </div>
               <div class="contact-body pb-2">
@@ -425,7 +417,7 @@
                   </div>
 
                   <div class="col-sm text-left pl-3 pt-4" id="form-col">
-                    <p>Write to us:</p>
+                    <p> {{$t('contactText')}}</p>
                       <form method="POST" id="post-form">
                         <div class="form-group ">
                           <div class="row">
