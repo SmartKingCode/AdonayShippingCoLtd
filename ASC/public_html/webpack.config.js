@@ -9,10 +9,11 @@ var extractPlugin = new ExtractTextPlugin({
 });
 
 module.exports = {
+   
     entry: './src/scripts/application.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
+        filename: 'bundle-front.js',
         // publicPath: '/dist'
     },
     module: {
@@ -61,6 +62,7 @@ module.exports = {
         alias: {
           'vue$': 'vue/dist/vue.esm.js', 
           'vue-i18n': 'vue-i18n/dist/vue-i18n.esm.js'
+        
      
         }
       },

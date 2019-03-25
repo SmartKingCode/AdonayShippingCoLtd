@@ -9,8 +9,9 @@
 
 </head>
 
-<body>
-  <div id="container" class="container-fluid p-0" >
+<body >
+ 
+  <div id="container" class="container-fluid p-0 animated  fadeIn delay-1s" >
 
     <header id="page-head" class="m-0 p-0">
 
@@ -45,12 +46,12 @@
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-globe-africa"></i>
               </a>
-              <div id="drop" class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+              <div id="drop" class="dropdown-menu p-0 bg-secondary" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" @click="locale('en')" href="#"><img src="./images/en.png" /> <span
                     class="ml-3">En</span> </a>
-                <a class="dropdown-item" @click="locale('fr')" href="#"> <img src="./images/fr.png" /> <span
+                <a class="dropdown-item " @click="locale('fr')" href="#"> <img src="./images/fr.png" /> <span
                     class="ml-3">Fr</span></a>
-
+                    </div>
             </li>
 
           </ul>
@@ -76,7 +77,7 @@
                 <p class="mt-1 h5">{{$t('caption11')}}<br />
                   {{$t('caption12')}}<br />
                   {{$t('caption13')}} [...] <br />
-                  <a href="#" class="btn text-white  btn-sm  p-2 bg-darkblue mt-2"> {{$t('read')}} <i class="fa fa-arrow-right"></i></a>
+                  <a href="#" @click="navigate(1600)" class="btn text-white btn-sm  p-2 bg-darkblue mt-2"> {{$t('read')}} <i class="fa fa-arrow-right"></i></a>
                 </p>
               </div>
 
@@ -92,7 +93,7 @@
                   {{$t('caption22')}}<br />
                   {{$t('caption23')}}
                   [...] <br />
-                  <a href="#" class="btn text-white   btn-sm p-2 bg-darkblue      mt-2">{{$t('read')}} <i class="fa fa-arrow-right"></i></a>
+                  <a href="#"  @click="navigate('600')" class="btn text-white   btn-sm p-2 bg-darkblue      mt-2">{{$t('read')}} <i class="fa fa-arrow-right"></i></a>
                 </p>
               </div>
 
@@ -108,7 +109,7 @@
                   {{$t('caption32')}}<br />
                   {{$t('caption33')}}
                   [...] <br />
-                  <a href="#" class="btn p-2 text-white bg-darkblue btn-sm  mt-2">{{$t('read')}} <i class="fa fa-arrow-right"></i></a>
+                  <a href="#" @click="navigate('2400')" class="btn p-2 text-white bg-darkblue btn-sm  mt-2">{{$t('read')}} <i class="fa fa-arrow-right"></i></a>
                 </p>
               </div>
 
@@ -186,7 +187,7 @@
                     <h5 class="mb-0">BIETC</h5>
                     <span class="line text-white">xxxxxxx</span>
   
-                      <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum qui animi quis eveniet </p>
+                      <p class="mt-3">{{$t('bietc')}} </p>
                     </div>
                     </div>
                 
@@ -266,10 +267,10 @@
       </div>
       <div class=" parralax text-center">
         <div class="text-center pt-2  " id="why-choose-us">
-          <h6 class="   text-monospace">{{$t('block4')}}</h6>
+          <h6 class=" text-monospace">{{$t('block4')}}</h6>
           <img src="./images/line.png" alt=".."/>
           <span class="line "><span class="d-none">xxxxxxxxxx</span></span>
-          <p class=" speech text-white font-weight-bolder mt-2" v-html="$t('whyChooseUs')"></p>
+          <p class=" speech text-white pl-1 pr-1  mt-2 display-4 container" v-html="$t('whyChooseUs')"></p>
             <div class="row pt-3">
                   <div class="col-sm">
                       <span class="colordark">
@@ -294,105 +295,105 @@
           </div>
 
           </div>
-      <div id="about" class="jumbotron bg-white pt-3 pb-2">
-        <div class="about-head text-center mb-4 ">
-          <h2 class="text-center   font-weight-bolder"> {{$t('block2')}} </h2>
-          <img src="./images/line.png" class="mt-0 " alt=".."/>
-
-        </div>
-        <div class="about-body ">
-            <p class="text-center" v-html="$t('aboutDescription')">
-             
-              </p>
-
-              <div class=" container-fluid pt-3 mb-3">
-              <div class="row">
-                  <div class="col-sm-4 text-center">
-                    <img src="./images/nobody.png" alt="..."/>
-                    <h5>ASSOCIATES</h5>
-                      <p class=""> {{$t('aboutAssociate')}}</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <img src="./images/world.jpg" alt="..."/>
-                        <h5>WORLDWIDE</h5>
-                          <p class=""> {{$t('aboutWorldwide')}}</p>
-                        </div>
-                        <div class="col-sm-4 text-center">
-                            <img src="./images/nobody3.png" alt="..."/>
-                            <h5>EXPERTS</h5>
-                              <p class=""> {{$t('aboutExpert')}}</p>
-                            </div>
-              </div>
-
-              
-                  <div id="team" class="carousel slide " data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#team" data-slide-to="0" class="active font-weight-bolder"></li>
-                        <li data-target="#team" data-slide-to="1"></li>
-                        <li data-target="#team" data-slide-to="2"></li>
-                      </ol>
-                      <div class="carousel-inner  p-0">
-                        <div class="carousel-item active p-0 h-100">
-                          <div class=" text-center">
-                            <div class="d-flex justify-content-center pt-3">
-                         <img src="images/IT-Manager.jpg" height="200" width="200" class="rounded-circle"/>
-                            </div>
-                          <div class="carousel-caption   d-xs-block d-sm-block d-md-block  " id="caption">
-                            <div class=" animated  fadeInUp delay-1s ">
-                              <h4 class="text-dark">Dina LEBGAZA</h4>
-                              <p class="text-dark">Our technical support manager.</p>
-
-                            </div>
-              
-                          </div>
-                        </div>
-                        </div>
-                        <div class="carousel-item  p-0 h-100 ">
-                            <div class=" text-center">
-                              <div class="d-flex justify-content-center pt-3">
-                           <img src="images/IT-Manager.jpg" height="200" width="200" class="rounded-circle"/>
-                              </div>
-                            <div class="carousel-caption  d-xs-block d-sm-block d-md-block  " id="caption">
-                              <div class=" animated  fadeInUp delay-1s ">
-                                <h4 class="text-dark">Dina LEBGAZA</h4>
-                                <p class="text-dark">Our technical support manager.</p>
-  
-                              </div>
-                
-                            </div>
-                          </div>
-                          </div>
-  
-                          <div class="carousel-item  p-0 h-100">
-                            <div class=" text-center">
-                              <div class="d-flex justify-content-center pt-3">
-                           <img src="images/IT-Manager.jpg" height="200" width="200" class="rounded-circle"/>
-                              </div>
-                            <div class="carousel-caption  d-xs-block d-sm-block d-md-block  " id="caption">
-                              <div class=" animated  fadeInUp delay-1s ">
-                                <h4 class="text-dark">Dina LEBGAZA</h4>
-                                <p class="text-dark">Our technical support manager.</p>
-  
-                              </div>
-                
-                            </div>
-                          </div>
-                          </div>               
-                           </div>
-                     <a class="carousel-control-prev " href="#team" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="carousel-control-next" href="#team" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                      </a> 
-                    </div>
-              </div>
-              </div>
-        </div>
+     
       </div>
-
+      <div id="about" class="jumbotron bg-white pt-3 pb-2">
+          <div class="about-head text-center mb-4 ">
+            <h2 class="text-center   "> {{$t('block2')}} </h2>
+            <img src="./images/line.png" class="mt-0 " alt=".."/>
+  
+          </div>
+          <div class="about-body ">
+              <p class="text-center container h5" v-html="$t('aboutDescription')">
+               
+                </p>
+  
+                <div class=" container-fluid pt-3 mb-3">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                      <img src="./images/nobody.png" alt="..."/>
+                      <h5>{{$t('abtAss')}}</h5>
+                        <p class="h6 pl-5 pr-5"> {{$t('aboutAssociate')}}</p>
+                      </div>
+                      <div class="col-sm-4 text-center">
+                          <img src="./images/world.jpg" alt="..."/>
+                          <h5>{{$t('abtWor')}}</h5>
+                            <p class="h6 pl-5 pr-5"> {{$t('aboutWorldwide')}}</p>
+                          </div>
+                          <div class="col-sm-4 text-center">
+                              <img src="./images/nobody3.png" alt="..."/>
+                              <h5>{{$t('abtEx')}}</h5>
+                                <p class="h6 pl-5 pr-5"> {{$t('aboutExpert')}}</p>
+                              </div>
+                </div>
+  
+                
+                    <div id="team" class="carousel slide " data-ride="carousel">
+                       <ol class="carousel-indicators">
+                          <li data-target="#team" data-slide-to="0" class="active font-weight-bolder"></li>
+                          <li data-target="#team" data-slide-to="1"></li>
+                          <li data-target="#team" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner  p-0">
+                          <div class="carousel-item active p-0 h-100">
+                            <div class=" text-center">
+                              <div class="d-flex justify-content-center pt-3">
+                           <img src="images/IT-Manager.jpg" height="200" width="200" class="rounded-circle"/>
+                              </div>
+                            <div class="carousel-caption   d-xs-block d-sm-block d-md-block  " id="caption">
+                              <div class=" animated  fadeInUp delay-1s ">
+                                <h4 class="text-dark">Dina LEBGAZA</h4>
+                                <p class="text-dark">Our technical support manager.</p>
+  
+                              </div>
+                
+                            </div>
+                          </div>
+                          </div>
+                          <div class="carousel-item  p-0 h-100 ">
+                              <div class=" text-center">
+                                <div class="d-flex justify-content-center pt-3">
+                             <img src="images/IT-Manager.jpg" height="200" width="200" class="rounded-circle"/>
+                                </div>
+                              <div class="carousel-caption  d-xs-block d-sm-block d-md-block  " id="caption">
+                                <div class=" animated  fadeInUp delay-1s ">
+                                  <h4 class="text-dark">Dina LEBGAZA</h4>
+                                  <p class="text-dark">Our technical support manager.</p>
+    
+                                </div>
+                  
+                              </div>
+                            </div>
+                            </div>
+    
+                            <div class="carousel-item  p-0 h-100">
+                              <div class=" text-center">
+                                <div class="d-flex justify-content-center pt-3">
+                             <img src="images/IT-Manager.jpg" height="200" width="200" class="rounded-circle"/>
+                                </div>
+                              <div class="carousel-caption  d-xs-block d-sm-block d-md-block  " id="caption">
+                                <div class=" animated  fadeInUp delay-1s ">
+                                  <h4 class="text-dark">Dina LEBGAZA</h4>
+                                  <p class="text-dark">Our technical support manager.</p>
+    
+                                </div>
+                  
+                              </div>
+                            </div>
+                            </div>               
+                             </div>
+                       <a class="carousel-control-prev " href="#team" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#team" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a> 
+                      </div>
+                </div>
+                </div>
+          </div>
       <div id="contact" class="bg-light">
           <div class="contact-head text-center ">
               <h2 class="text-center font-weight-bolder h-100 "> {{$t('block3')}}</h2>
@@ -400,32 +401,53 @@
             </div>
               <div class="contact-body pb-2">
                 <div class="row">
-                  <div class="col-sm text-left border-right border-secondary">
-                      <div id="company-details">
-                        <span class="p-1 d-block"><span class="colordark mr-2"><i class="fa fa-map-marker "></i> </span>Totsi Able Rue HAAC derriere Pharmacie la nation</span>
+                  <div class="col-sm text-left  border-right border-secondary ">
+                      <div id="company-details" class="">
+                          <span class="p-1 d-block"><span class="colordark mr-2"><i class="fa fa-map-marker "></i> </span>{{$t('contactLieu')}}</span>
+                          
+                          <span class="p-1 d-block"><span class="colordark mr-2"><i class="fa fa-inbox"></i> </span> P.O.BOX : 13373</span>
+                          
+                          <span class="p-1 d-block"><span class="colordark mr-2"><i class="fa fa-phone"></i> </span> Phone / FAX : (+228) 22 25 33 21</span>
+                          
+        
+                          <span class="p-1 d-block"><span class="colordark mr-2"><i class="fa fa-envelope"></i> </span>Email : adonayshippingltd@gmail.com</span>
+        
                         
-                        <span class="p-1 d-block"><span class="colordark mr-2"><i class="fa fa-inbox"></i> </span> P.O.BOX : 13373</span>
-                        
-                        <span class="p-1 d-block"><span class="colordark mr-2"><i class="fa fa-phone"></i> </span> Phone / FAX : (228) 22 25 33 21</span>
-                        
-
-                        <span class="p-1 d-block"><span class="colordark mr-2"><i class="fa fa-envelope"></i> </span>Email : adonay@gmail.com</span>
-
-                      
-                      </div>
+                        </div>
+                  
                       <div id="map" class="bg-secondary"></div>
                   </div>
+           
+        
+                   
+                    <div class="col-sm text-left pl-3 pt-4 m-0" id="form-col">
+                      <div class="row">
+                          <div class="col">
+                              <p> {{$t('contactText')}}</p>
+                              <p  class="alert alert-danger d-none">
+                               {{$t('errorAlert')}}
+                                </p>
+                              <p  class="alert alert-success d-none">
+                               {{$t('successAlert')}}
+                                </p>
+                              <p v-if="errors.length">
+                            
+                                  <ul type="none" >
+                                    <li class="pl-3 small text-danger" v-for="error in errors">- {{ error }}</li>
+                                  </ul>
+                                </p>
+                          </div>
+                      </div>
+                      <form @submit="checkForm"  method="POST" id="contact-form">
 
-                  <div class="col-sm text-left pl-3 pt-4" id="form-col">
-                    <p> {{$t('contactText')}}</p>
-                      <form method="POST" id="post-form">
+                          
                         <div class="form-group ">
                           <div class="row">
                               <div class="col-sm-3 pt-2">
-                                  <label for="name">Name </label>
+                                  <label for="user_name">{{$t('formName')}} </label>
                               </div>
                               <div class="col-sm ">
-                                  <input class="form-control-lg" name="name" />
+                                  <input class="form-control-lg font-weight-normal text-left " v-model="user_name"  name="user_name" />
                               </div>
                           </div>
                          
@@ -434,57 +456,48 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-sm-3 pt-2 pr-0" class="bg-primary">
-                                    <label for="mailbox" class="">MailBox </label>
+                                    <label for="user_mail" class="">{{$t('formMail')}} </label>
                                 </div>
                                 <div class="col-sm">
-                                    <input class="form-control-lg" name="mail" />
+                                    <input class="form-control-lg font-weight-normal text-left" v-model="user_mail" placeholder="" name="user_mail" />
                                 </div>
                             </div>
                           </div>
-                          <div class="form-group">
-                              <div class="row">
-                                  <div class="col-sm-3 pt-2 pr-0">
-                                      <label for="subject">Subject </label>
-                                  </div>
-                                  <div class="col-sm">
-                                      <input class="form-control-lg" name="subject" />
-                                  </div>
-                              </div>
-                            </div>
+                        
                             <div class="form-group">
                               <div class="row">
                                   <div class="col-sm-3 pt-2 pr-0">
-                                      <label for="message">Message </label>
+                                      <label for="text">{{$t('formMsg')}} </label>
                                   </div>
                                   <div class="col-sm">
-                                      <textarea class="form-control-lg"  name="message"></textarea>
+                                      <textarea class="form-control-lg font-weight-normal text-left" v-model="text"  name="text"></textarea>
                                   </div>
                               </div>
                              
                              
                               </div>
-                              <a class="btn  btn-primary float-right" type="submit"> Submit</a>
+                              <button class="btn bg-darkblue float-right"  id="submit"  type="submit"> {{$t('formBtn')}}</button>
                       </form>
+                     
                   </div>
                   
-                  <div class="col-sm-1 text-right ">
+                  <div class=" col-sm-1 text-right ">
                     <a onclick="topFunction()" class="p-3 scrollTop" href="#" id="myBtn" title="Go to top"><i class="fa small fa-arrow-up"></i></a>
                   </div>
                 </div>
-               
+                
               </div>
         <div>
 
         </div>
 
       </div>
-  </div>
-
-  </section>
-  <footer class=" text-center ">
-      <p class="h3 text-white small font-weight-bolder">Copyright 2019 © 2018 Adonay Shipping Co. Ltd. All Right Reserved</p>
-      <span class="text-white"><i class="fab fa-facebook-f"></i><i class="fab fa-google ml-2"></i><i class="fab fa-instagram ml-2"></i></span>
-  </footer>
+    </section>
+    <footer class=" text-center ">
+        <p class="h3 text-white small font-weight-bolder">Copyrights 2019 © 2018 Adonay Shipping Co. Ltd. All Rights Reserved</p>
+        <span class="text-white"><i class="fab fa-facebook-f"></i><i class="fab fa-google ml-2"></i><i class="fab fa-instagram ml-2"></i></span>
+    </footer>
+ 
 
   </div>
   

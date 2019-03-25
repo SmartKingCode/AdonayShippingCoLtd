@@ -44,6 +44,19 @@
 
           }
 
+          .parralax #why-choose-us{
+
+            h6{
+              font-size: 4em; 
+            }
+         
+           
+            p.speech{
+              font-size: 1.5em;
+              line-height: 1.3em;
+            }
+         
+          }
         div#service{
           overflow-x: hidden;
             
@@ -141,20 +154,27 @@
             padding-left: 20px;
             margin-top: 0;
 
-          .contact-body{
-           margin-top: 20px;
-            }
+            .contact-body{
+              margin-top: 20px;
+   
+   
+               #form-col.col-sm{
+                 padding-left: 0px;
+               }
+                 
+               }
       
             #map {
-            width: 99%;
-            height: 390px;
+            width:100%;
+            height: 400px;
             margin-top: 10px;
       
           }
-      
+
           textarea{
             height: 180px;
             width: 350px;
+          
           }
 
           a[type=submit]{
