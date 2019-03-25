@@ -6,150 +6,122 @@
 * {
     margin: 0;
     padding: 0;
+    font: 16px "Times New Roman",arial, sans-serif;
+    font-weight: 600;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+  //  overflow-x: hidden;
 }
-/*
-test start
-*/
-.text-purple{
-   color:  purple;
+
+a.bg-darkblue{
+    background-color: darkblue;
 }
-.bg-grey{
-    background-color:  #494954;
-}
-.bg-middle-dark{
-    background-color:  #475256;
-}
-.bg-middle-secondary{
-     background-color:    #636E72;
-}
-.file-tab{
-    height: 30px;
-    width: 100px;
+span.line{
+    width: 80px;
+    font-weight: 600;
     
+    border-bottom: 2.5px solid darkblue;
+    text-align: center;
+    margin-top: 0;
 }
-.file-tab-lg{
-    height: 30px;
-    width: 130px;
+span.colordark{
+    color: darkblue;
+}
+
+.parralax{
+    /* The image used */
+  background-image: url("/images/togo.jpg");
+
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+ #why-choose-us{
+    padding-bottom: 15px;
+    h6{
+        color: white;
+        font-size: 5rem;
+        font-weight: bold;
     
-}
-.bg-light-secondary{
-      background-color:    #393E42;
-}
-.bg-mid-grey{
-     background-color:   #5C696F;
-}
-.type{
-    height: 50px;
-background-color:    #636E72
-}
-
-/*
-test finish
-*/
-body
-{
-    margin: 0;
-    padding: 0;
-     overflow: hidden;
-}
-div#container
-{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  
-}
-section#login_form{
-    background-color: #3D474C;
-   padding-top: 130px;
-}
-section#create_form {
-      background-color: #3D474C;
-   padding-top: 50px;
-}
-section#create_form div.modal-dialog{
-    display: block;
-    width: 650px;
-}
-.checkmark{
-    height: 15px;
-    width: 15px;
-    background-color: #eee;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.plus{
-    cursor: pointer;
-    &:active{
-         background-color: #eee;
     }
-}
+    p{
+font-size:   1.2rem;
+  }
+   .row .rank p,   .row .rank span{
+    font-size:   2rem;
 
-#input-head{
-    height: 30px;
-}
-
-ul#input_show li ul li#drop{
-    &:hover{
-         background-color: #eee;
-    }
-    
-   
-
-}
-dd#data{
-    &:hover{
-         background-color: #eee;
-    }
-    
-}
-a:hover{
-    text-decoration:  none;
-}
-
-.b-grey{
-     background-color: #eee;
-}
-.hover{
-    &:hover{
-        cursor: pointer;
-    }
-}
-.selector:hover{
-     background-color: #eee;
-      cursor: pointer;
-}
-.page{
-    &:hover{
-        cursor: pointer; 
-    }
-    
-}
-
-.ui-resizable-helper { border: 2px dotted #00F; }
-::-webkit-scrollbar {
-    width: 7px;
-    height: 7px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-   box-shadow: inset 0 0 5px grey; 
-    border-radius: 5px;
-     background: black;
+      }
 }
  
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background:   #999999 ; 
-    border-radius: 5px;
+}
+.btn.bg-darkblue{
+  background-color: darkblue;
+  border-radius: 0;
+  color: white;
+  &:hover{
+    color: white;
+  }
+}
+#myBtn {
+   // display: none;
+    position: fixed;
+    bottom: 150px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out 0s;
+    
+   // border-radius: 100%;
+  }
+  
+  #myBtn:hover {
+    background-color: darkblue;
+  }
+  #container{
+    position: relative;
+  } 
+
+
+
+  
+  /* Center the loader
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 400px;
+  height: 400px;
+  margin: -75px 0 0 -75px;
+  border: 4px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid  darkblue;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background:  #999999; 
-     border-radius: 5px;
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
 }
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+*/
