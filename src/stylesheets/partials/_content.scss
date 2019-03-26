@@ -1,0 +1,1120 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+
+   
+   
+   
+
+  
+@media (min-width: 1281px) {
+  
+    //CSS
+
+    section#content{
+          overflow: hidden;
+
+          div#carouselIndicators{
+          img{
+              height: 600px;
+          }
+          .carousel-caption{
+          
+            position: absolute;
+            left: 160px;
+            line-height: 3rem;
+            #caption,#caption2,#caption3{
+                position: relative;
+                top: 20px;
+                left: 15px;
+               
+
+                h1{
+                  font-size: 3.5em;
+                  cursor: default;
+                }
+                p{
+                  font-size: 1.5em;
+                  cursor: default;
+                }
+            }
+          }
+
+          }
+
+          .parralax #why-choose-us{
+
+            h6{
+              font-size: 4em; 
+            }
+         
+           
+            p.speech{
+              font-size: 1.5em;
+              line-height: 1.3em;
+            }
+         
+          }
+        div#service{
+          overflow-x: hidden;
+            
+        
+          
+          .card{
+            height: 230px;
+            width: 350px;
+            padding-top: 20px;
+          }
+            
+            h3{
+              font-size: 1.2em;
+              font-weight: bold;
+            }
+            .col-head{
+              height: 80px;
+              width: 80px;
+              background-color: darkblue;
+              border-radius: 100%;
+          
+              
+            }
+            .service-body{
+              padding-left: 100px;
+            }
+            .service-description{
+              h5{
+                font-size: 1em;
+                font-weight: 600;
+              }
+              p{
+                font-size: 1em;
+                font-weight: 400;
+              }
+            }
+        
+            
+            }
+
+          div#about{
+            overflow-x: hidden;
+          
+            div#team{
+              height: 350px;
+              width: 80%;
+              left: 10%;
+              top: 20px;
+              .carousel-indicators li{
+                height: 20px;
+                width: 20px;
+                border-radius: 100%;
+                background-color: lightgray;
+           
+              }
+              
+              .carousel-control-prev{
+                height: 22%;
+                background-color: darkblue;
+                opacity: 1;
+                border-radius: 100%;
+                width: 80px;
+                position: absolute;
+                left: 15px;
+                top:100px;
+                
+              }
+              .carousel-control-next{
+                height: 22%;
+                background-color: darkblue;
+                opacity: 1;
+                border-radius: 100%;
+                width: 80px;
+                position: absolute;
+                right: 15px;
+                top:100px;        
+              }
+              .carousel-inner{
+                height: 100%;
+            
+                #caption{
+                  position: absolute;
+                  top:205px;
+            
+        
+        
+                }
+              }
+            }
+      
+          }
+
+          div#contact{
+            height: 600px;
+            padding-left: 20px;
+            margin-top: 0;
+
+            .contact-body{
+              margin-top: 20px;
+   
+   
+               #form-col.col-sm{
+                 padding-left: 0px;
+               }
+                 
+               }
+      
+            #map {
+            width:100%;
+            height: 400px;
+            margin-top: 10px;
+      
+          }
+
+          textarea{
+            height: 180px;
+            width: 350px;
+          
+          }
+
+          a[type=submit]{
+            margin-right: 0px;
+            background-color: darkblue;
+            color: white;
+          }
+
+          }
+       
+   
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    //CSS
+    section#content{
+
+      overflow: hidden;
+
+      div#carouselIndicators{
+          img{
+              height: 600px;
+          }
+          .carousel-caption{
+          
+            position: absolute;
+            left: 100px;
+            line-height: 3rem;
+        
+          }
+      }
+
+      div#service{
+        overflow-x: hidden;
+          
+      
+        
+        .card{
+          height: 230px;
+          width: 300px;
+          padding-top: 20px;
+        }
+           
+          h3{
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+          .col-head{
+            height: 80px;
+            width: 80px;
+            background-color: darkblue;
+            border-radius: 100%;
+         
+            
+          }
+
+          .service-body{
+            padding-left: 40px;
+          }
+          .service-description{
+            h5{
+              font-size: 1em;
+              font-weight: 600;
+            }
+            p{
+              font-size: 1em;
+              font-weight: 400;
+            }
+          }
+      
+          
+          }
+          div#about{
+            overflow-x: hidden;
+          
+            div#team{
+              height: 350px;
+              width: 80%;
+              left: 10%;
+              top: 20px;
+              .carousel-indicators li{
+                height: 20px;
+                width: 20px;
+                border-radius: 100%;
+                background-color: lightgray;
+           
+              }
+              
+              .carousel-control-prev{
+                height: 22%;
+                background-color: darkblue;
+                opacity: 1;
+                border-radius: 100%;
+                width: 80px;
+                position: absolute;
+                left: 15px;
+                top:100px;
+                
+              }
+              .carousel-control-next{
+                height: 22%;
+                background-color: darkblue;
+                opacity: 1;
+                border-radius: 100%;
+                width: 80px;
+                position: absolute;
+                right: 15px;
+                top:100px;        
+              }
+              .carousel-inner{
+                height: 100%;
+            
+                #caption{
+                  position: absolute;
+                  top:205px;
+            
+        
+        
+                }
+              }
+            }
+      
+          }
+          div#contact{
+            height: 600px;
+            padding-left: 20px;
+            margin-top: 0;
+
+          .contact-body{
+           margin-top: 20px;
+            }
+      
+            #map {
+            width: 99%;
+            height: 390px;
+            margin-top: 10px;
+      
+          }
+      
+          textarea{
+            height: 180px;
+            width: 300px;
+          }
+
+          a[type=submit]{
+            margin-right: 0px;
+            background-color: darkblue;
+            color: white;
+          }
+
+          }
+       
+
+   
+       
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+ 
+
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    section#content{
+      overflow: hidden;
+      div#carouselIndicators{
+          img{
+              height: 600px;
+          }
+          .carousel-caption{
+          
+            position: absolute;
+            left: 30px;
+            line-height: 2rem;
+          
+          }
+         
+              
+      }
+      div#service{
+        overflow-x: hidden;
+          
+     
+        
+        .card{
+          height: 230px;
+       //   width: 300px;
+          padding-top: 20px;
+        
+        }
+          
+          h3{
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+          .col-head{
+            height: 80px;
+            width: 80px;
+            background-color: darkblue;
+            border-radius: 100%;
+        
+            
+          }
+          .service-body{
+            padding-left: 20px;
+          }
+          .service-description{
+            h5{
+              font-size: 1em;
+              font-weight: 600;
+            }
+            p{
+              font-size: 1em;
+              font-weight: 400;
+            }
+          }
+      
+          
+          }
+
+      div#about{
+        overflow-x: hidden;
+      
+        div#team{
+          height: 350px;
+          width: 80%;
+          left: 10%;
+          top: 20px;
+          .carousel-indicators li{
+            height: 20px;
+            width: 20px;
+            border-radius: 100%;
+            background-color: lightgray;
+       
+          }
+          
+          .carousel-control-prev{
+            height: 22%;
+            background-color: darkblue;
+            opacity: 1;
+            border-radius: 100%;
+            width: 80px;
+            position: absolute;
+            left: 15px;
+            top:100px;
+            
+          }
+          .carousel-control-next{
+            height: 22%;
+            background-color: darkblue;
+            opacity: 1;
+            border-radius: 100%;
+            width: 80px;
+            position: absolute;
+            right: 15px;
+            top:100px;        
+          }
+          .carousel-inner{
+            height: 100%;
+        
+            #caption{
+              position: absolute;
+              top:205px;
+        
+    
+    
+            }
+          }
+        }
+  
+      }
+
+      .parralax #why-choose-us{
+
+        h6{
+          font-size: 4em; 
+        }
+        p{
+          font-size: 1.4em;
+        }
+        span.d-block{
+          font-size: 1.4em;
+        }
+        p.speech{
+          font-size: 1em;
+        }
+     
+      }
+       div#contact{
+            height: 500px;
+            padding-left: 20px;
+            margin-top: 0;
+
+          .contact-body{
+           margin-top: 20px;
+            }
+      
+            #map {
+            width: 99%;
+            height: 390px;
+            margin-top: 10px;
+      
+          }
+          input{
+            width: 100%;
+          }
+      
+          textarea{
+            height: 180px;
+            //width: 200px;
+            width: 100%;
+          }
+
+          a[type=submit]{
+            margin-right: 0px;
+            background-color: darkblue;
+            color: white;
+          }
+
+          }
+
+
+        
+
+
+       
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+ 
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    section#content{
+
+      div#carouselIndicators{
+          img{
+              height: 550px;
+          }
+          .carousel-caption{
+          
+            position: absolute;
+            left: 140px;
+            line-height: 3rem;
+            #caption,#caption2,#caption3{
+                position: relative;
+                top: 20px;
+                left: 15px;
+               
+
+                h1{
+                  font-size: 2.5em;
+                  cursor: default;
+                }
+                p{
+                  font-size: 1.2em;
+                  cursor: default;
+                }
+            }
+          }
+          
+      }
+      div#service{
+        overflow-x: hidden;
+          
+     
+        
+        .card{
+          height: 230px;
+           // width: 225px;
+          padding-top: 10px;
+          margin: 0;
+        
+        }
+          
+          h3{
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+          .col-head{
+            height: 80px;
+            width: 80px;
+            background-color: darkblue;
+            border-radius: 100%;
+        
+            
+          }
+          .service-body.container{
+            padding-left: 0;
+            padding-right: 0;
+          }
+          .service-description{
+            h5{
+              font-size: 0.85em;
+              font-weight: 600;
+            }
+            p{
+              font-size: 0.95em;
+              font-weight: 400;
+            }
+          }
+      
+          
+          }
+
+          #why-choose-us{
+
+            h6{
+              font-size: 1em;
+            }
+            p.speech{
+              font-size: 0.8em;
+            }
+          } 
+      div#about{
+        overflow-x: hidden;
+      
+        div#team{
+          height: 350px;
+          width: 80%;
+          left: 10%;
+          top: 20px;
+          .carousel-indicators li{
+            height: 20px;
+            width: 20px;
+            border-radius: 100%;
+            background-color: lightgray;
+       
+          }
+          
+          .carousel-control-prev{
+            height: 22%;
+            background-color: darkblue;
+            opacity: 1;
+            border-radius: 100%;
+            width: 80px;
+            position: absolute;
+            left: 15px;
+            top:100px;
+            
+          }
+          .carousel-control-next{
+            height: 22%;
+            background-color: darkblue;
+            opacity: 1;
+            border-radius: 100%;
+            width: 80px;
+            position: absolute;
+            right: 15px;
+            top:100px;        
+          }
+          .carousel-inner{
+            height: 100%;
+        
+            #caption{
+              position: absolute;
+              top:205px;
+        
+    
+    
+            }
+          }
+        }
+  
+      }
+       div#contact{
+         overflow: hidden;
+            height: 600px;
+            padding-left: 20px;
+            margin-top: 0;
+
+          .contact-body{
+           margin-top: 20px;
+
+
+            #form-col.col-sm{
+              padding-left: 0px;
+            }
+              #company-details{
+                span{
+                  font-size: 0.9em;
+                  font-weight: 700;
+                }
+              }
+            }
+      
+            #map {
+            width: 99%;
+            height: 370px;
+            margin-top: 10px;
+      
+          }
+          input{
+            width: 100%;
+            text-align: right;
+          }
+        
+            label{
+              padding: 0;
+              font-size: 0.9em;
+              font-weight: 700;
+            }
+          textarea{
+            height: 180px;
+          //  width: 230px;
+          width: 100%;
+           
+          }
+
+          a[type=submit]{
+            margin-right: 0px;
+            background-color: darkblue;
+            color: white;
+          }
+
+          }
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+   section#content{
+    overflow: hidden;
+      div#carouselIndicators{
+          img{
+              height: 500px;
+          }
+          .carousel-caption{
+          
+            position: absolute;
+            left: 60px;
+            line-height: 2rem;
+            #caption,#caption2,#caption3{
+              position: relative;
+              top: 20px;
+              left: 15px;
+             
+
+              h1{
+                font-size: 2em;
+                cursor: default;
+              }
+              p{
+                font-size: 1.2em;
+                cursor: default;
+              }
+          }
+          }
+           
+      }
+
+      div#about{
+        overflow-x: hidden;
+      
+        div#team{
+          height: 350px;
+          width: 80%;
+          left: 10%;
+          top: 20px;
+          .carousel-indicators li{
+            height: 20px;
+            width: 20px;
+            border-radius: 100%;
+            background-color: lightgray;
+       
+          }
+          
+          .carousel-control-prev{
+            height: 22%;
+            background-color: darkblue;
+            opacity: 1;
+            border-radius: 100%;
+            width: 80px;
+            position: absolute;
+            left: 15px;
+            top:100px;
+            
+          }
+          .carousel-control-next{
+            height: 22%;
+            background-color: darkblue;
+            opacity: 1;
+            border-radius: 100%;
+            width: 80px;
+            position: absolute;
+            right: 15px;
+            top:100px;        
+          }
+          .carousel-inner{
+            height: 100%;
+        
+            #caption{
+              position: absolute;
+              top:205px;
+        
+    
+    
+            }
+          }
+        }
+  
+      }
+      .parralax #why-choose-us{
+
+        h6{
+          font-size: 4em; 
+        }
+        p{
+          font-size: 1.4em;
+        }
+        span.d-block{
+          font-size: 1.4em;
+        }
+        p.speech{
+          font-size: 1em;
+        }
+     
+      }
+      div#service{
+        overflow-x: hidden;
+          
+     
+        
+        .card{
+        //  height: 230px;
+       //  width: 200px;
+          padding-top: 20px;
+        
+        }
+          
+          h3{
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+          .col-head{
+            height: 80px;
+            width: 80px;
+            background-color: darkblue;
+            border-radius: 100%;
+        
+            
+          }
+          .service-body {
+            padding-left: 20px;
+          }
+          .service-description{
+            h5{
+              font-size: 1em;
+              font-weight: 600;
+            }
+            p{
+              font-size: 1em;
+              font-weight: 400;
+            }
+          }
+      
+          
+          }
+
+       
+      div#contact{
+        overflow-x: hidden;
+           height: 100%;
+           padding-left: 20px;
+           margin-top: 0;
+
+         .contact-body{
+          margin-top: 20px;
+
+
+          #company-details{
+            span{
+              font-size: 0.9em;
+              font-weight: 700;
+            }
+          }
+           
+           }
+     
+           #map {
+           width: 99%;
+           height: 370px;
+           margin-top: 10px;
+     
+         }
+         input{
+           width: 90%;
+           text-align: right;
+         }
+       
+           label{
+             padding: 0;
+             font-size: 0.9em;
+             font-weight: 700;
+           }
+         textarea{
+           height: 180px;
+         //  width: 170px;
+         width: 95%;
+          
+         }
+
+         a[type=submit]{
+           margin-right: 10px;
+           background-color: darkblue;
+           color: white;
+         }
+
+         }
+    }
+   
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    section#content{
+        overflow: hidden;
+      div#carouselIndicators{
+          img{
+              height: 450px;
+          }
+
+          .carousel-caption{
+          
+            position: absolute;
+            left: 60px;
+            line-height: 2rem;
+            #caption,#caption2,#caption3{
+              position: relative;
+              top: 20px;
+              left: 15px;
+             
+
+              h1{
+                font-size: 1.5em;
+                cursor: default;
+              }
+              p{
+                font-size: 1.2em;
+                cursor: default;
+              }
+          }
+          }
+          
+      }
+
+
+   
+      div#service{
+        overflow-x: hidden;
+          
+     
+        
+        .card{
+        //  height: 230px;
+       //  width: 200px;
+          padding-top: 20px;
+        
+        }
+          
+          h3{
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+          .col-head{
+            height: 80px;
+            width: 80px;
+            background-color: darkblue;
+            border-radius: 100%;
+        
+            
+          }
+          .service-body {
+            padding-left: 20px;
+          }
+          .service-description{
+            h5{
+              font-size: 1em;
+              font-weight: 600;
+            }
+            p{
+              font-size: 1em;
+              font-weight: 400;
+            }
+          }
+      
+          
+          }
+
+          .parralax #why-choose-us{
+
+            h6{
+              font-size: 2.5em; 
+            }
+            p{
+              font-size: 1.4em;
+            }
+            span.d-block{
+              font-size: 1.4em;
+            }
+            p.speech{
+              font-size: 1em;
+            }
+         
+          }
+
+          
+      div#about{
+        overflow: hidden;
+      
+        div#team{
+          height: 350px;
+          width: 90%;
+          left: 10%;
+          top: 20px;
+          img{
+            height: 150px;
+            width: 150px;
+            margin-top: 20px;
+          }
+          .carousel-indicators li{
+            height: 20px;
+            width: 20px;
+            border-radius: 100%;
+            background-color: lightgray;
+       
+          }
+          
+          .carousel-control-prev{
+            height: 15%;
+            background-color: darkblue;
+            opacity: 1;
+            border-radius: 100%;
+            width: 60px;
+            position: absolute;
+            left: 0px;
+            top:100px;
+            
+          }
+          .carousel-control-next{
+            height: 15%;
+            background-color: darkblue;
+            opacity: 1;
+            border-radius: 100%;
+            width: 60px;
+            position: absolute;
+            right: 0px;
+            top:100px;        
+          }
+          .carousel-inner{
+            height: 100%;
+        
+            #caption{
+              position: absolute;
+              top:190px;
+        
+    
+    
+            }
+          }
+        }
+  
+      }
+
+      div#contact{
+        overflow-x: hidden;
+           height: 100%;
+           padding-left: 20px;
+           margin-top: 0;
+
+         .contact-body{
+          margin-top: 20px;
+
+
+          #company-details{
+            span{
+              font-size: 0.9em;
+              font-weight: 700;
+            }
+          }
+           
+           }
+     
+           #map {
+           width: 99%;
+           height: 370px;
+           margin-top: 10px;
+     
+         }
+         input{
+           width: 70%;
+           text-align: right;
+         }
+       
+           label{
+             padding: 0;
+             font-size: 0.9em;
+             font-weight: 700;
+           }
+         textarea{
+           height: 180px;
+         //  width: 170px;
+         width: 80%;
+          
+         }
+
+         a[type=submit]{
+           margin-right: 10px;
+           background-color: darkblue;
+           color: white;
+         }
+
+         }
+    }
+  }
+

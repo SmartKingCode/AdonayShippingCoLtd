@@ -1,0 +1,223 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  header,nav{
+    height: 70px;
+  }
+  //CSS
+  #company-name{
+    span{
+    color: darkblue;
+    font-size: 1.1em;
+    font-weight: 600;
+    }
+  }
+  
+  nav li a{
+  
+    color: rgb(42, 42, 48);
+    font-size: 1.1em;
+    text-transform:  capitalize;
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  header,nav{
+    height: 70px;
+  }
+  //CSS
+  #company-name{
+    span{
+    color: darkblue;
+    font-size: 1.1em;
+    font-weight: 600;
+    }
+  }
+  nav li a{
+    color: rgb(42, 42, 48);
+    font-size: 1.1em;
+    text-transform:  capitalize;
+  }
+ 
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header,nav{
+    height: 70px;
+  }
+  //CSS
+  #company-name{
+    span{
+    color: darkblue;
+    font-size: 1.1em;
+    font-weight: 600;
+    }
+  }
+  
+  nav li a{
+  
+    color: rgb(42, 42, 48);
+    font-size: 1.1em;
+    text-transform:  capitalize;
+  }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  header,nav{
+    height: 70px;
+  }
+  //CSS
+  #company-name{
+    span{
+    color: darkblue;
+    font-size: 1.1em;
+    font-weight: 600;
+    }
+  }
+  
+  nav li a{
+  
+    color: rgb(42, 42, 48);
+    font-size: 1.1em;
+    text-transform:  capitalize;
+  }
+  #navbarContent{
+    
+    
+    ul{
+       // display: block;
+          width: 100%;
+          background-color: white;
+          
+         
+          text-align: justify;
+          li{
+          width: 100%;
+
+          }
+      }
+  }
+  #drop{
+
+     // min-width: 100%;
+    //@warn  text-align: center;
+      //position: relative;
+   }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  header,nav{
+    height: 70px;
+  }
+  #company-name{
+    span{
+      //display:  none;
+  color: darkblue;
+    font-size: 0.8em;
+    font-weight: 600;
+
+    } 
+  }
+  nav li a{
+    font-size: 1,1em;
+    color: black;
+  }
+  #navbarContent{
+   
+
+      ul{
+      
+          width: 100%;
+          background-color: white;
+         
+          text-align: justify;
+          li{
+          width: 100%;
+
+          }
+      }
+  }
+  #drop{
+
+      min-width: 99%;
+      text-align: center;
+      
+   }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  header,nav{
+    height: 60px;
+  }
+  #company-name{
+  
+    span{
+     // display:  none;
+     color: darkblue;
+     font-size: 0.7em;
+     font-weight: 600;
+
+
+    } 
+    
+  }
+  nav li a{
+    font-size: 1,1em;
+    color: black;
+  }
+  #navbarContent{
+   
+
+      ul{
+          width: 100%;
+          background-color: white;
+          text-align: justify;
+          li{
+          width: 100%;
+
+          }
+      }
+  }
+  #drop{
+
+      min-width: 100%;
+      text-align: center;
+   }
+}
+
+
