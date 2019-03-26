@@ -13,7 +13,7 @@
     box-sizing: border-box;
   //  overflow-x: hidden;
 }
-
+[v-cloak] {display: none;}
 a.bg-darkblue{
     background-color: darkblue;
 }

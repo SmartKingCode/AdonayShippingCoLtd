@@ -12,7 +12,7 @@ module.exports = {
    
     entry: './src/scripts/application.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, './dist'),
         filename: 'bundle-front.js',
         // publicPath: '/dist'
     },

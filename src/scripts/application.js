@@ -82,7 +82,7 @@ export let view = new Vue({
         sendData: function(){
    
            $.ajax({
-             url: 'http://localhost:8081/send-email',
+             url: 'http://adonayshippingcoltd.tk/send-email',
              type: 'POST',
              data:$('#contact-form').serializeArray(),
              success: function(){
