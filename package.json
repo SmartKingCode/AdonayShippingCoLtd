@@ -33,7 +33,7 @@
     "karma-webpack": "^3.0.5",
     "node-sass": "^4.5.1",
     "sass-loader": "^6.0.3",
-    "webpack": "^2.7.0",
+    "webpack": ">=2.7.0",
     "webpack-dev-server": "^2.4.2",
     "webpack-karma-jasmine": "^3.0.6",
     "webpack-node-externals": "^1.7.2"
