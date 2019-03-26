@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "build": "webpack-dev-server"
+    "build": "webpack-dev-server",
+    "build:prod": "webpack -p",
+    "start": "node server.js"
   },
   "repository": "https://github.com/SmartKingCode/AdonayShippingCoLtd.git",
   "author": "SmartKing <Smartking@SmartKing>",
@@ -34,10 +35,9 @@
     "node-sass": "^4.5.1",
     "sass-loader": "^6.0.3",
     "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.4.2",
     "webpack-karma-jasmine": "^3.0.6",
-    "webpack-node-externals": "^1.7.2",
-    
-    "webpack-dev-server": "^2.4.2"
+    "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.7.2",
@@ -60,7 +60,7 @@
     "style-loader": "^0.23.1",
     "vue": "^2.6.6",
     "vue-i18n": "^8.8.1",
-   
+    "webpack-node-externals": "^1.7.2",
     "xoauth2": "^1.2.0"
   }
 }
