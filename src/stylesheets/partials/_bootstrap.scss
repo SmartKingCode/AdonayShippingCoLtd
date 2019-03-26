@@ -1,0 +1,45 @@
+
+.nav-item{
+    height: 70px;
+    width: 120px;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: 1px;
+}
+.nav-item:hover{
+
+
+   background-color: darkblue;
+     
+     .nav-link{
+         font-weight: bold;
+        color: white;
+        
+     }
+}
+
+
+.nav-item.active{
+    //border-top: darkblue 2px solid ;
+  
+   background-color: darkblue;
+  
+
+    .nav-link{
+        
+        color: white;
+    }
+}
+
+/*#drop{
+  
+   min-width: 7.5rem;
+}*/
+
+button.navbar-toggler{
+   background-color: darkblue;
+} 
+
+.dropdown-item{
+    background-color:red;
+}
