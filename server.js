@@ -5,7 +5,7 @@ const  nodeMailer = require('nodemailer');
 const  bodyParser = require('body-parser');
 const xoauth2 = require('xoauth2');
 const serveStatic = require('serve-static');
-const http = require('http');
+
 
 const app = express();
 
@@ -91,6 +91,3 @@ let server = app.listen(port, function(){
     console.log("Server started at http://localhost:%s", port);
 });
 
-setInterval(function(){
-  http.get("https://adonay-shipping-co-ltd.herokuapp.com");
-},300000);
