@@ -8,12 +8,14 @@ const serveStatic = require('serve-static');
 
 const app = express();
 
+
 app.use('/', serveStatic(path.join(__dirname,'./dist')));
 
 const port = process.env.PORT || 8080;
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
+
 
 
 
@@ -32,15 +34,15 @@ var transporter = nodeMailer.createTransport({
          pass: 'adonayMailService2019'
      }
  });
-app.use(function(req, res, next) {
+ app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
   });
   
 
-app.post('/send-email', function (req, res) {
-
+  app.post('/send-email', function (req, res) {
+  
 
 var form={
   "name":  req.body.user_name,
@@ -80,6 +82,8 @@ var mailOptions = {
   res.end();
   
 });
+
+
 
 let server = app.listen(port, function(){
     let port = server.address().port;
