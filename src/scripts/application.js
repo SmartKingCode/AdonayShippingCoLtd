@@ -138,8 +138,10 @@ export let view = new Vue({
            $('form input, form textarea').val("");
         },
         navigate: function(value){
+          let scrollTo =$("div#"+value).offset();
+         
           $('html, body').animate({
-            scrollTop: value
+            scrollTop: (scrollTo.top - 45)
           }, 800);
           return false;
         }
